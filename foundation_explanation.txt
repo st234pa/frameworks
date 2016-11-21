@@ -1,0 +1,15 @@
+Tabs:
+A tabbed interface allows multiple panels to be within a single window; you can navigate between those panels with the tabs.
+The tabs  are an element with the tab .tabs, each tab has the class .tabs-title and a link to a tab (the href of which matches the tab's ID).
+
+	Grids:
+
+
+		Forms:
+
+
+		Buttons:
+
+
+		
+	
