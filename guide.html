@@ -85,9 +85,72 @@
 	  <h3>How to Use Foundation</h3>
 	  <p>We started off with a lot of stuff that's pretty specific, but we never really talked about what Foundation is or how to use it in general.</p>
 	  <p>What is Foundation? It's a CSS framework, which, according to Wikipedia, is a pre-prepared library that allows for "easier, more standards-compliant styling of web pages using the Cascading Style Sheets language... CSS frameworks are usually incorporated as external .css sheets referenced in the HTML head." <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_frameworks">Here's the link to the Wikipedia article, for reference.</a> In other words, it makes your content purrrttyy!</p>
-	  <p>Anywho, that means it's not voodoo, so it's not difficult to use! Start by going to the <a href="http://foundation.zurb.com">Foundation page</a>. You can download the complete version to get all that they offer, or you can fill out the form to customize which features you want.</p>
+	  <p>Anywho, that means it's not voodoo, so it's not difficult to use! Start by going to the <a href="http://foundation.zurb.com">Foundation page</a>. You can download the complete version to get all that they offer, or you can fill out the form to customize your framework, or what features you want. That way you don't have any unnecessary bulk -- if you only want a CSS grid and buttons, then checking those and nothing else will give you that and nothing else.</p>
+	  <p>After that, you can pretty much just use it how you like! The kitchen sink is really useful because it shows you all of the features they offer in one page (and the code). Y'all know how classes work, so you're just going to use them like so :)</p>
+	  <p>This page demonstrates a few of the features of Foundation, but there's a lot more out there!</p>
 	</div>
       </div>
     </div>
+    <div class="row">
+      <div class="large-8 columns">
+	<h4>Here's an example of a form.</h4>
+	<form>
+	  <div class="row">
+            <div class="large-12 columns">
+              <label>If you had to choose, what would your rapper name be?</label>
+              <input type="text" placeholder="TOFR" />
+            </div>
+	  </div>
+	  <div class="row">
+            <div class="large-4 medium-4 columns">
+              <label>Favorite Word</label>
+              <input type="text" placeholder="worddd" />
+            </div>
+            <div class="large-4 medium-4 columns">
+              <label>Favorite Musical Artist/Band</label>
+              <input type="text" placeholder="Beatles" />
+            </div>
+            <div class="large-4 medium-4 columns">
+              <div class="row collapse">
+		<label>Favorite Hashtag</label>
+		<div class="input-group">
+		  <span class="input-group-label">#</span>
+		  <input type="text" placeholder="itsli7" class="input-group-field" />
+		</div>
+              </div>
+            </div>
+	  </div>
+	  <div class="row">
+            <div class="large-12 columns">
+              <label>Favorite kind of dog? Let us know with this select box!</label>
+              <select>
+		<option value="husky">Husky</option>
+		<option value="corgi">Corgi</option>
+		<option value="goldendoodle">Goldendoodle</option>
+		<option value="hotdawg">Hot Dawg</option>
+              </select>
+            </div>
+	  </div>
+	  <div class="row">
+            <div class="large-6 medium-6 columns">
+              <label>Is Mr. DW a dub?</label>
+              <input type="radio" name="isadub" value="Ye" id="dub"><label for="dub">Ye</label>
+              <input type="radio" name="isadub" value="Nah" id="nodub"><label for="nodub">Nah</label>
+            </div>
+            <div class="large-6 medium-6 columns">
+              <label>Is Mr. DW a dub?</label>
+              <input id="yea" type="checkbox"><label for="yea">Yea</label>
+              <input id="ohyea" type="checkbox"><label for="ohyea">Oh Yea!!!</label>
+            </div>
+	  </div>
+	  <div class="row">
+            <div class="large-12 columns">
+              <label>Why is Mr. DW a dub?</label>
+              <textarea placeholder="I don't know, why was the barnacle so ugly?"></textarea>
+            </div>
+	  </div>
+	</form>
+      </div>
+    
   </body>
 </html>
