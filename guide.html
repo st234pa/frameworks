@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+    
     <div class="title-bar">
       <div class="title-bar-left">
 	<span class="title-bar-title">Foundation for Sites: A Guide by Stephanie and Shariar!</span>
       </div>
+	  <ul class="vertical medium-horizontal menu">
+	<li><a href="#">Tell me not tho</a></li>
+	<li><a href="#">Coolest menu-bar</a></li>
+	<li><a href="#">Ever</a></li>
+	</ul>
     </div>
     <div class="row">
       <div class="large-12 columns">
@@ -28,7 +30,7 @@
       <div class="large-12 columns">
 	<div class="callout success">
 	  <h3>What does that mean?</h3>
-	  <p>Foundation allows you to create responsive, multi-device layouts with a grid system. Adding an element of class .row would creates a horizontal block to contain columns. Next, add columns (you guessed it, of class .column! Or .columns -- it's the same thing). To specify the width, use the following classes: .small-#, .medium-#, and .large-#. The small, medium, and large essentially specify how the column would collapse (try playing around with the window size!). This paragraph and header is in an element called a callout.</p>
+	  <p>Foundation allows you to create responsive, multi-device layouts with a grid system. Adding an element of class .row would creates a horizontal block to contain columns. Next, add columns (you guessed it, of class .column! Or .columns -- it's the same thing). To specify the width, use the following classes: .small-#, .medium-#, and .large-#. The small, medium, and large essentially specify how the column would collapse. Smalls tend to stay together on the same row when resized, where as the large and mediums just collapse under each other. This is very crucial if you were to visit the website on a mobile device. (try playing around with the window size!). This paragraph and header is in an element called a callout.</p>
 	</div>
       </div>
     </div>
@@ -43,39 +45,65 @@
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="medium-6 columns">
+	  <div class="large-6 columns">
 	    <div class="primary callout">
-	      <p>Six Columns!</p>
+	      <p>Six Columns large!</p>
 	    </div>
 	  </div>
-	  <div class="medium-6 columns">
+	  <div class="large-6 columns">
 	    <div class="primary callout">
-	      <p>Six columns!</p>
+	      <p>Six columns large!</p>
 	    </div>
 	  </div>
 	</div>
 	<div class="row">
-	  <div class="small-4 columns">
+	  <div class="medium-4 columns">
 	    <div class="primary callout">
-	      <p>Four columns!</p>
+	      <p>Four columns medium!</p>
 	    </div>
 	  </div>
-	  <div class="small-4 columns">
+	  <div class="medium-4 columns">
 	    <div class="primary callout">
-	      <p>Four columns!</p>
+	      <p>Four columns medium!</p>
 	    </div>
 	  </div>
-	  <div class="small-4 columns">
+	  <div class="medium-4 columns">
 	    <div class="primary callout">
-	      <p>Four columns!</p>
+	      <p>Four columns !</p>
 	    </div>
 	  </div>
 	</div>
+		<div class="row">
+	  <div class="small-3 columns">
+	    <div class="primary callout">
+	      <p>Three columns small!</p>
+	    </div>
+	  </div>
+	  	  <div class="small-3 columns">
+	    <div class="primary callout">
+	      <p>Three columns small!</p>
+	    </div>
+	  </div>
+	  	  <div class="small-3 columns">
+	    <div class="primary callout">
+	      <p>Three columns small!</p>
+	    </div>
+	  </div>
+	  <div class="small-3 columns">
+	    <div class="primary callout">
+	      <p>Three columns small!</p>
+	    </div>
+	  </div>
+	  
+	  	 
+	</div>
+		
       </div>
       <div class="small-4 columns">
 	<h4>Shining, shimmering splendid!</h4>
 	<div class="callout">
 	  <p>Wow, this looks great! But wasn't this really hard to make? Not at all, actually! This was really easy to make because of Foundation. Just follow a few basic steps! Wooo!</p>
+	
 	</div>
       </div>
     </div>
@@ -162,7 +190,60 @@
         <a href="#" class="success button">Success Btn</a><br/>
         <a href="#" class="alert button">Alert Btn</a><br/>
         <a href="#" class="secondary button">Secondary Btn</a>
+			<div class="callout clearfix">
+			  <p> You can specify where exactly you want to place a button. This can also be used for media such as images or video</p>
+
+  <a class="button float-left">Left</a>
+  <a class="button float-right">Right</a>
+</div>
       </div>
     </div>
+	    <div class="row">
+      <div class="large-8 columns">
+	<h4>Here's an example of tabs.</h4>
+
+  <ul class="tabs" data-tabs id="tabs_example">
+  <li class="tabs-title is-active"><a href="#tab1">Tab 1</a></li>
+  <li class="tabs-title"><a href="#tab2">Tab 2</a></li>
+  <li class="tabs-title"><a href="#tab3">Tab 3</a></li>
+  <li class="tabs-title"><a href="#tab4">Tab 4</a></li>
+  <li class="tabs-title"><a href="#tab5">Tab 5</a></li>
+</ul>
+
+<div class="tabs-content" data-tabs-content="tabs_example">
+  <div class="tabs-panel is-active" id="tab1">
+    <p>First tab</p>
+    <p>Tabs are used to separate, organize, and view content on the same page without having to leave the current page. Tabs are separated into two pieces. The tabs themselves, and then separate code for the content within the tab. </p>
+  </div>
+  <div class="tabs-panel" id="tab2">
+    <p>Second tab</p>
+    <p>It's li7</p>
+  </div>
+  <div class="tabs-panel" id="tab3">
+    <p>Third tab</p>
+    <p>sike its not li7 yet</p>
+  </div>
+  <div class="tabs-panel" id="tab4">
+    <p>Fourth tab</p>
+    <p>Why can't it be li7 :(</p>
+  </div>
+  <div class="tabs-panel" id="tab5">
+    <p>Fifth tab</p>
+    <p>li7</p>
+  </div>
+</div>
+	    <div class="row">
+
+	<div class="small-6 columns">
+	<p>Foundation has device specific visibility for text. Resize to see text disappear.</p>
+	<p class="show-for-medium">Visible on medium or larger screens</p>
+	<p class="show-for-large">Visible on large screens.</p>
+	</div>
+	</div>
+	<script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+	
   </body>
 </html>
